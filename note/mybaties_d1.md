@@ -15,7 +15,15 @@
 |SqlSession|request/method(线程级别)|
 |Mapper|method|
 
+#### TypeHandler:
+做数值映射
+
+#### Plugins
+
 
 ## 课后作业
 1. Mapper在Spring管理下其实是单例，为什么可以是一个单例？SCOPE -> Application
 2. MyBatis在Spring集成下没有mapper的xml文件会不会报错，为什么？
+3. 手写TypeHandler
+
+
